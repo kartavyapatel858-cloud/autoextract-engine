@@ -1,0 +1,35 @@
+{
+  "api_version": "2.4.0",
+  "generated_at": "2026-10-23T08:15:00Z",
+  "meta": {
+    "cluster": "us-central1-k8s",
+    "total_nodes": 12,
+    "active_nodes": 12
+  },
+  "services": [
+    {
+      "id": "svc-001",
+      "name": "auth-service",
+      "status": "ready",
+      "replicas": 3,
+      "cpu_usage_mcores": 180,
+      "memory_mb": 450
+    },
+    {
+      "id": "svc-002",
+      "name": "billing-pipeline",
+      "status": "ready",
+      "replicas": 5,
+      "cpu_usage_mcores": 420,
+      "memory_mb": 1024
+    },
+    {
+      "id": "svc-003",
+      "name": "etl-processor",
+      "status": "ready",
+      "replicas": 4,
+      "cpu_usage_mcores": 310,
+      "memory_mb": 850
+    }
+  ]
+}
